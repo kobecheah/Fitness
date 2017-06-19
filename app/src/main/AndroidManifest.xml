@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.fitness">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".bmiCal" />
+        <activity android:name=".display" />
+        <activity android:name=".monday" />
+        <activity android:name=".stopwatch" />
+        <activity android:name=".dumbellpress" />
+        <activity android:name=".smithmachine" />
+        <activity android:name=".declinepush" />
+        <activity android:name=".tuesday" />
+        <activity android:name=".dumbelltricep" />
+        <activity android:name=".seatedbicep" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".daily" />
+        <activity android:name=".barbellcurl" />
+        <activity android:name=".weightmanaged" />
+        <activity android:name=".wednesday" />
+        <activity android:name=".deadlift" />
+        <activity android:name=".shoulderpress" />
+        <activity android:name=".cablerow" />
+        <activity android:name=".thursday" />
+        <activity android:name=".barbellsquat" />
+        <activity android:name=".legpress" />
+        <activity android:name=".seatedlegcurl" />
+        <activity android:name=".friday" />
+        <activity android:name=".situp" />
+        <activity android:name=".cablelift" />
+        <activity android:name=".bicyclecrunch" />
+        <activity android:name=".stepcounter" />
+        <activity android:name=".sensor"></activity>
+    </application>
+
+</manifest>

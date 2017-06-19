@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tuesday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.fitness.tuesday"
+    android:background="@drawable/background2">
+
+    <TextView
+        android:text="1. Dumbbell One-Arm Triceps Extension"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:layout_below="@+id/imageView11"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/text3"
+        android:id="@+id/imageView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp" />
+
+    <Button
+        android:text="Demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btdemo4"
+        android:onClick="onButtonClick"/>
+
+    <TextView
+        android:text="2. Seated Dumbbell Curl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:layout_below="@+id/btdemo4"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:text="Demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignEnd="@+id/btdemo4"
+        android:id="@+id/btdemo5"
+        android:onClick="onButtonClick"/>
+
+    <TextView
+        android:text="3. Barbell Curl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:fontFamily="casual"
+        android:textColor="@android:color/background_light"
+        android:textSize="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/btdemo5"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Demo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btdemo6"
+        android:onClick="onButtonClick"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
